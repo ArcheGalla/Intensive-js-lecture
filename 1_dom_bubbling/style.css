@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+header, footer {
+    height: 15vh;
+    background: #ffcb6b;
+}
+
+section {
+    height: 70vh;
+    background: #70c49c;
+}
+
+.first, .second, .third {
+    margin: 20px;
+    padding: 20px;
+    line-height: 100px;
+}
+
+.first {
+    background: #2f71c4;
+}
+
+.second {
+    background: #4f8faa;
+}
+
+.third {
+    background: #ff5f5a;
+}
+
+.title {
+    cursor: pointer;
+}
