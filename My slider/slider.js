@@ -1,4 +1,5 @@
 
+/*The final and my the best version of slider*/
 
 function createSlideController(sliderElements) {
     var slideController = {			 
@@ -82,7 +83,9 @@ function slider_controller() {
 	  }	  
 }
 
+/*The end of slider's final version*/
 
+/* The second version of slider */
 function slider() {
 
 	var slides = document.getElementsByClassName('slide');
