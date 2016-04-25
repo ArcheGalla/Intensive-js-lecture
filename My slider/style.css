@@ -1,0 +1,17 @@
+#slider {
+	margin: 0 auto;
+	width: 70%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.slide {
+	display: none;
+}
+
+#slider input[type="number"] {
+	margin-bottom: 15px;
+}
