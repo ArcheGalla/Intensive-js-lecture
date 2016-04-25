@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slider</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Lora:400italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div id="slider">
+        <div id="imgs">
+            <!-- here you can add the img tag-->
+            <img id="Img7" src="IMG/tokyo_japan.jpg"/>
+            <img id="Img6" src="IMG/paris_france.jpg"/>
+            <img id="Img5" src="IMG/london.jpg"/>
+            <img id="Img4" src="IMG/new_york.jpg"/>
+            <img id="Img3" src="IMG/italy_rome.jpg"/>
+            <img id="Img2" src="IMG/istanbul_turkey.jpg"/>
+            <img id="Img1" src="IMG/brazil_rio_de_janeiro.jpg"/>
+        </div>
+        <!--Here is going to be the left right buttons, the info and the imgs shown-->
+        <div id="Snav">
+            <!-- here is the circles , showes the current img -->
+            <div id="SnavUp">
+                <div id="Scircles">
+                    <ul>
+                        <!-- here you can add the li tag-->
+                        <li id="S0"></li>
+                        <li id="S1"></li>
+                        <li id="S2"></li>
+                        <li id="S3"></li>
+                        <li id="S4"></li>
+                        <li id="S5"></li>
+                        <li id="S6"></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- the left and right button -->
+            <div id="SnavMiddle">
+                <img id="Sleft" src="IMG/left.png" onclick="prev()"/>
+                <img id="Sright" src="IMG/right.png" onclick="next()"/>
+            </div>
+            <!-- the info -->
+            <div id="SnavBottom">
+                <!-- here you can add cities-->
+                <p id="SP0">Brazil Rio de Janeiro</p>
+                <p id="SP1">Istanbul Turkey</p>
+                <p id="SP2">Italy Rome</p>
+                <p id="SP3">New York</p>
+                <p id="SP4">Great Britain London</p>
+                <p id="SP5">France Paris</p>
+                <p id="SP6">Japan Tokyo</p>
+            </div>
+        </div>
+        <div class="input">
+           <form>
+           <input type="text" name="" id="bottom-input" onclick="clearInput()"placeholder="Enter milis">
+           <button type="submit" name="button" onclick='userTime()'>Enter</button>
+           </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
