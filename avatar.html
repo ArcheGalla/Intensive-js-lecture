@@ -1,0 +1,8 @@
+<img ng-if="row.avatar_sm" class="img30_30 img-circle"
+     ng-src="{{row.avatar_sm}}" alt="{{ row.firstName + ' ' + row.lastName }}"
+     style="float:left; margin-top:-6px; margin-right: 6px;"/>
+<div ng-if="!row.avatar_sm" class="img30_30 img-circle" style="float:left; margin-top:-6px; margin-right: 6px;">
+                <span>
+                 {{ row.firstName ? row.firstName.substring(0, 1).toUpperCase() + row.lastName.substring(0, 1).toUpperCase() : '?' )}}
+                </span>
+</div>
